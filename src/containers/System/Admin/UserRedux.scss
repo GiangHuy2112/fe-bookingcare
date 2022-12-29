@@ -1,0 +1,21 @@
+.preview-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    .label-upload {
+        padding: 7px;
+        border-radius: 3px;
+        background: #ddd;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    .preview-image {
+        height: 100px;
+        width: 100%;
+        background: center center no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+}
